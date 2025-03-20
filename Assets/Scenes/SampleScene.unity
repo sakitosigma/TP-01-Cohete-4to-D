@@ -441,6 +441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2071222449}
   - component: {fileID: 2071222450}
+  - component: {fileID: 2071222451}
   m_Layer: 0
   m_Name: Boton
   m_TagString: Untagged
@@ -480,3 +481,16 @@ CircleCollider2D:
   m_Offset: {x: 0.08961105, y: 0.012801409}
   serializedVersion: 2
   m_Radius: 1.063268
+--- !u!114 &2071222451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071222448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda55379f466fab4ba9fe585ca44de8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botonGO: {fileID: 522673963}
